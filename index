@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vikram Pathania</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Personal website of economist Vikram Pathania – causal inference, marketplace design, and AI."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="site-title">Vikram Pathania</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="experience.html">Experience</a>
+          <a href="research.html">Research</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Vikram Pathania</h1>
+        <div class="hero-subtitle">
+          Economist · Causal Inference · Marketplace Design &amp; AI
+        </div>
+        <p>
+          I use economic theory, causal inference, and large-scale experiments
+          to design safer, more efficient marketplaces and organizations. My
+          training spans the Indian Institute of Technology (IIT), the Indian
+          Institute of Management (IIM), and a PhD in Economics from the
+          University of California, Berkeley. I have held faculty positions at
+          the London School of Economics and the University of Sussex, and I now
+          work as a senior economist in big tech.
+        </p>
+        <p>
+          I am particularly interested in how platforms, incentives, regulation,
+          and increasingly AI-driven decision systems shape outcomes for
+          consumers, workers, and firms.
+        </p>
+
+        <div class="button-row">
+          <a
+            class="button primary"
+            href="assets/Vikram_Pathania_CV.pdf"
+            target="_blank"
+            >View CV</a
+          >
+          <a class="button secondary" href="contact.html">Contact me</a>
+        </div>
+
+        <div class="cred-strip">
+          <span>Previously / Trained at</span>
+          <div class="cred-list">
+            Indian Institute of Technology (IIT) · Indian Institute of
+            Management (IIM) · University of California, Berkeley · London
+            School of Economics · University of Sussex · Amazon
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>&copy; <span id="year"></span> Vikram Pathania</div>
+        <div>Economist · Causal Inference · Marketplace Design</div>
+      </div>
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
