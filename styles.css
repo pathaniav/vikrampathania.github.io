@@ -177,12 +177,15 @@ footer .footer-inner {
   }
 }
 .profile-pic {
-  width: 200px;
+  width: 260px;          /* whatever size you want */
+  height: 260px;
   border-radius: 50%;
-  border: 3px solid #555;
-  display: block;
-  margin: 20px auto;
+  object-fit: cover;     /* zoom/crop to fit */
+  object-position: center; /* center the face */
+  border: 5px solid #c49815;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.1);
 }
+
 
 .profile-container {
   text-align: center;
