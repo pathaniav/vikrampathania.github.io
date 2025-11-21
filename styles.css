@@ -230,4 +230,31 @@ footer .footer-inner {
   }
 }
 
+.contact-minimal {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+
+.contact-links {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.contact-links li {
+  margin: 8px 0;
+}
+
+.contact-links a {
+  color: #c49815;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+
 
