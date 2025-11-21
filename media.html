@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>In the Media · Vikram Pathania</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Selected media coverage of research by economist Vikram Pathania."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-container">
+        <a href="index.html" class="site-title">Vikram Pathania</a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="experience.html">Experience</a>
+          <a href="research.html">Research</a>
+          <a href="media.html">In the Media</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="media-page">
+      <section>
+        <h2>In the Media</h2>
+        <p class="media-lead">
+          Selected coverage of my research in international media. These pieces
+          highlight work on road safety, food environments, and discrimination
+          in housing and labour markets.
+        </p>
+
+        <div class="media-list">
+
+          <!-- Example item 1 -->
+          <article class="media-item">
+            <div class="media-meta">The New York Times · Fast food & schools</div>
+            <h3>
+              “Fast-Food Within Walking Distance of High School Linked to Student Obesity”
+            </h3>
+            <p class="media-tagline">
+              Reporting on joint work using spatial data on schools and food outlets.
+            </p>
+            <a href="assets/media/NYT_fast_food_schools.pdf" target="_blank">
+              Read article (PDF)
+            </a>
+          </article>
+
+          <!-- Example item 2 -->
+          <article class="media-item">
+            <div class="media-meta">BBC News · Mobile phones & driving</div>
+            <h3>
+              “Mobile Phone Drivers Not Linked to Accident Figures”
+            </h3>
+            <p class="media-tagline">
+              Coverage of research on call records and crash data and what they imply
+              for road-safety policy.
+            </p>
+            <a href="assets/media/BBC_mobile_phones_crashes.pdf" target="_blank">
+              Read article (PDF)
+            </a>
+          </article>
+
+          <!-- Example item 3 -->
+          <article class="media-item">
+            <div class="media-meta">The New York Times · Road safety</div>
+            <h3>
+              “No Link Between Yakking and Crashing”
+            </h3>
+            <p class="media-tagline">
+              Discusses a large-scale study of mobile phone use and traffic collisions.
+            </p>
+            <a href="assets/media/NYT_yakking_crashing.pdf" target="_blank">
+              Read article (PDF)
+            </a>
+          </article>
+
+          <!-- Example item 4 -->
+          <article class="media-item">
+            <div class="media-meta">India Real Time (WSJ) · Housing discrimination</div>
+            <h3>
+              “Indian Landlords Discriminate Against Muslims, Study Finds”
+            </h3>
+            <p class="media-tagline">
+              Field-experimental evidence on religious discrimination in rental markets.
+            </p>
+            <a href="assets/media/WSJ_muslim_landlords.pdf" target="_blank">
+              Read article (PDF)
+            </a>
+          </article>
+
+          <!-- Example item 5 -->
+          <article class="media-item">
+            <div class="media-meta">HuffPost India · Rental markets</div>
+            <h3>
+              “UN Study Finds Muslims Have a Harder Time Renting Homes in Delhi”
+            </h3>
+            <p class="media-tagline">
+              Follow-up reporting on discrimination findings and policy implications.
+            </p>
+            <a href="assets/media/HuffPost_renting_delhi.pdf" target="_blank">
+              Read article (PDF)
+            </a>
+          </article>
+
+        </div>
+
+        <p class="media-note">
+          This is a small sample of coverage. Additional articles and interviews are
+          available on request.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div>&copy; <span id="year"></span> Vikram Pathania</div>
+        <div>Economist · Causal Inference · Marketplace Design</div>
+      </div>
+      <script>
+        document.getElementById("year").textContent =
+          new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
