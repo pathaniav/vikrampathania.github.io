@@ -265,5 +265,78 @@ footer .footer-inner {
   text-decoration: underline;
 }
 
+/* === In the Media page === */
+
+.media-page {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 24px 80px;
+}
+
+.media-lead {
+  max-width: 650px;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  color: #555;
+}
+
+.media-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.media-item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.media-item:last-child {
+  border-bottom: none;
+}
+
+.media-meta {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.media-item h3 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.media-tagline {
+  margin: 0 0 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.media-item a {
+  font-size: 14px;
+  color: #c49815;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.media-item a:hover {
+  text-decoration: underline;
+}
+
+.media-note {
+  margin-top: 32px;
+  font-size: 13px;
+  color: #777;
+}
+
+/* Mobile tweaks */
+@media (max-width: 700px) {
+  .media-page {
+    margin-top: 40px;
+  }
+}
+
 
 
