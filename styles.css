@@ -39,7 +39,13 @@ header {
 
 .site-title {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  opacity: 0.85;
 }
 
 nav a {
