@@ -352,3 +352,79 @@ nav a.active {
     margin-top: 60px;
   }
 }
+
+/* === Teaching Page === */
+
+.teaching-page {
+  max-width: 820px;
+  margin: 80px auto;
+  padding: 0 20px 80px;
+}
+
+/* Intro paragraph */
+.page-intro {
+  max-width: 680px;
+  margin: 0 auto 2.4rem;
+  color: #444;
+  font-size: 1.02rem;
+}
+
+.page-intro h1 {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 2.2rem;
+  margin-bottom: 0.6rem;
+  color: #0b1f33;
+}
+
+/* Section blocks */
+.teaching-section {
+  max-width: 680px;
+  margin: 0 auto 2.4rem;
+}
+
+.teaching-section h2 {
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 1.45rem;
+  margin-bottom: 0.75rem;
+  color: #0b1f33;
+}
+
+/* Remove default bullet look and align nicely */
+.teaching-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.teaching-list li {
+  margin-bottom: 0.55rem;
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+/* Custom gold bullet */
+.teaching-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #d4a017;
+  font-weight: bold;
+}
+
+/* Course designer tag */
+.teaching-tag {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #444;
+}
+
+/* Mobile tightening */
+@media (max-width: 640px) {
+  .page-intro h1 {
+    font-size: 1.9rem;
+  }
+  .teaching-section h2 {
+    font-size: 1.25rem;
+  }
+}
+
