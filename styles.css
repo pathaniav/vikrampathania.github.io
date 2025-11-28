@@ -181,7 +181,7 @@ footer .footer-inner {
   height: 260px;
   border-radius: 50%;
   object-fit: cover;     /* zoom/crop to fit */
-  object-position: center 40%; /* center the face */
+  object-position: center 35%; /* center the face */
   border: 5px solid #c49815;
   box-shadow: 0 8px 18px rgba(0,0,0,0.1);
 }
