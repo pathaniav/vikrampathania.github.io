@@ -230,7 +230,7 @@ section h3 {
 
 .media-intro {
   max-width: 640px;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   color: #555;
   font-size: 15px;
 }
@@ -238,24 +238,27 @@ section h3 {
 /* Public engagement photos */
 
 .engagements-block {
-  margin: 2rem 0 2.75rem;
-  padding-bottom: 2.25rem;
+  max-width: 640px;
+  margin: 1.8rem 0 2.5rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid #e5e5e5;
 }
 
 .engagement-photo-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.25rem;
-  margin-top: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 0.75rem;
 }
 
 .engagement-photo-grid img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 210px;
   object-fit: cover;
   display: block;
   border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  background-color: #ffffff;
 }
 
 .media-mentions-block {
@@ -266,12 +269,6 @@ section h3 {
   margin-bottom: 1.2rem;
   font-size: 1.15rem;
   font-weight: 600;
-}
-
-@media (max-width: 700px) {
-  .engagement-photo-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* Media mentions */
@@ -434,8 +431,17 @@ footer .footer-inner {
     margin-top: 60px;
   }
 
+  .engagements-block {
+    max-width: 100%;
+  }
+
   .engagement-photo-grid {
     grid-template-columns: 1fr;
+  }
+
+  .engagement-photo-grid img {
+    height: auto;
+    max-height: 320px;
   }
 }
 
@@ -468,6 +474,5 @@ footer .footer-inner {
     align-items: flex-start;
     gap: 0.35rem;
   }
-}
 }
 
