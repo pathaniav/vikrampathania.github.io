@@ -262,7 +262,7 @@ section h3 {
 }
 
 .engagement-photo-grid img:first-child {
-  object-position: left 25%;
+  object-position: left top;
 }
 
 .engagement-photo-grid img:last-child {
