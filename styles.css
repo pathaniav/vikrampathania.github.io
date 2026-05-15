@@ -238,16 +238,9 @@ section h3 {
 /* Public engagement photos */
 
 .engagements-block {
-  margin: 2rem 0 2.5rem;
-  padding-bottom: 2rem;
+  margin: 2rem 0 2.75rem;
+  padding-bottom: 2.25rem;
   border-bottom: 1px solid #e5e5e5;
-}
-
-.engagements-block h3,
-.media-mentions-block > h3 {
-  margin-bottom: 0.9rem;
-  font-size: 1.15rem;
-  font-weight: 600;
 }
 
 .engagement-photo-grid {
@@ -257,11 +250,7 @@ section h3 {
   margin-top: 1rem;
 }
 
-.engagement-photo-card {
-  margin: 0;
-}
-
-.engagement-photo-card img {
+.engagement-photo-grid img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -271,6 +260,18 @@ section h3 {
 
 .media-mentions-block {
   margin-top: 1.5rem;
+}
+
+.media-mentions-block > h3 {
+  margin-bottom: 1.2rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  .engagement-photo-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Media mentions */
