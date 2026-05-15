@@ -261,6 +261,14 @@ section h3 {
   background-color: #ffffff;
 }
 
+.engagement-photo-grid img:first-child {
+  object-position: left 25%;
+}
+
+.engagement-photo-grid img:last-child {
+  object-position: center center;
+}
+
 .media-mentions-block {
   margin-top: 1.5rem;
 }
